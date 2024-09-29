@@ -51,8 +51,8 @@
 						_class = "PhysicsHullFile"
 						name = "surf_ski_2_revamp_col"
 						parent_bone = ""
-						surface_prop = "default"
-						collision_prop = "default"
+						surface_prop = "concrete"
+						collision_prop = "clip"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
@@ -63,7 +63,7 @@
 						import_mode = "HullPerElement"
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
-						optimization_algorithm = "QEM"
+						optimization_algorithm = "Exact"
 						import_filter = 
 						{
 							exclude_by_default = false
